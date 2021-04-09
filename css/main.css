@@ -40,7 +40,20 @@ ol {
   gap: 1rem;
 }
 
-ol>li {
+ol > li {
+  /*styling*/
   border: 3px solid #987ffa;
-padding:1rem; border-radius: 6px;
+  padding:1rem;
+  border-radius: 6px;
+
+  /*grid*/
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/*beside elements*/
+h2 + img {
+  order: -1;
 }
