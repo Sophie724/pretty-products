@@ -56,4 +56,5 @@ ol > li {
 /*beside elements*/
 h2 + img {
   order: -1;
+  max-width: 15em;
 }
