@@ -15,16 +15,16 @@ body {
 
 main {
   margin: 1rem;
-
 }
+
 h2 {
   font-family: Oswald, sans-serif;
-  margin:0;
+  margin: 0;
   color: #6f00e7;
   font-size: 2rem;
 }
 
-p{
+p {
   text-align: center;
   margin: 0 0 1.5rem;
   font-size: 1.4rem;
@@ -32,8 +32,8 @@ p{
 
 ol {
   list-style-type: none;
-  margin:0;
-  padding:0;
+  margin: 0;
+  padding: 0;
 
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -41,32 +41,32 @@ ol {
 }
 
 ol > li {
-  /*styling*/
+  /* styling */
   border: 3px solid #987ffa;
-  padding:1rem;
+  padding: 1rem;
   border-radius: 6px;
 
-  /*grid*/
+  /* grid */
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
 }
 
-/*beside elements*/
+/* beside elements */
+
 h2 + img {
   order: -1;
   max-width: 15em;
   margin-bottom: 1.5rem;
 }
 
-
 ol ul {
   list-style-type: none;
   margin: 0;
-  padding:0;
+  padding: 0;
 
-  display:flex;
+  display: flex;
   justify-content: space-between;
   align-items: center;
   align-self: stretch;
